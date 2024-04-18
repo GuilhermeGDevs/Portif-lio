@@ -166,7 +166,7 @@ body {
     font-variation-settings:
     "XROT" 0,
     "YROT" 0;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     color:whitesmoke;
 }
 .enfase__about{
@@ -216,6 +216,13 @@ body {
     }
     .minhafoto{
         width: 50%;
+    }
+    .apresentacao__about{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .stilo__about{
+        width: auto;
     }
 
 }
