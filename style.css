@@ -213,6 +213,7 @@ body {
     }
    .botao{
        font-size: 1rem;
+       width: 70%
    }
     .stilo{
         width: auto;
