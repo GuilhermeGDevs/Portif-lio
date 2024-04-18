@@ -211,6 +211,9 @@ body {
         flex-direction: column-reverse;
         padding: 5%;
     }
+   .botao{
+       font-size: 1rem;
+   }
     .stilo{
         width: auto;
     }
