@@ -211,12 +211,12 @@ body {
         flex-direction: column-reverse;
         padding: 5%;
     }
-   .botao{
-       font-size: 1rem;
-       width: 70%
-   }
     .stilo{
         width: auto;
+    }
+    .botao{
+        font-size: 1rem;
+        width: 70%;
     }
     .minhafoto{
         width: 50%;

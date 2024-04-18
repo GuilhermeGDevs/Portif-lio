@@ -214,6 +214,10 @@ body {
     .stilo{
         width: auto;
     }
+    .botao{
+        font-size: 1rem;
+        width: 70%;
+    }
     .minhafoto{
         width: 50%;
     }
