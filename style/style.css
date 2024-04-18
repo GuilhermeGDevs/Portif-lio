@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Tilt+Neon&display=swap');
+
+:root{
+   --cor--primaria:linear-gradient(90deg, rgba(10,4,112,1) 0%, rgba(9,9,121,1) 32%, rgba(2,122,147,1) 97%);
+   --cor--segundaria: #d2a21c; 
+   --cor--terciaria: whitesmoke;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+    background: rgb(2,0,36);
+    background: var(--cor--primaria);
+}
+.cabecalho{
+    padding: 2% 0% 0% 15%;   
+}
+.cabecalho__menu{
+    display: flex;
+    gap:65px;
+}
+.cabecalho__menu__link{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color:var(--cor--segundaria) ;
+    text-decoration: none;
+}
+.minhafoto {
+      width: 38%;
+      border-radius: 50px;
+      border: 2px solid var(--cor--segundaria) ;
+      padding: 6px;
+      margin: 10px;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6% 15%;
+    gap: 82px;
+  }
+  .Destaque_titulo {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    color: #D9C848;
+}
+.stilo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+.titulo{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 1.5rem;
+    color:var(--cor--terciaria);
+}
+
+.conteudo{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 1.25rem;
+    color: var(--cor--terciaria);
+}
+.apresentacaolinks {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.subtitulo{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.botao {
+    /*border: rgb(195,43,34);
+   border: 5px double linear-gradient(0deg, rgba(195,43,34,1) 11%, rgba(230,167,0,1) 60%);*/
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    text-align: center;
+    border: 2px solid var(--cor--segundaria) ;
+    border-radius: 6px;
+    font-size: 1.5rem;
+    font-weight: 600px;
+    padding: 21px 0px;
+    text-decoration: none;
+    color: whitesmoke;
+   
+}
+.botao:hover{
+    border: 2 px solid #ef7b07;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(10,4,112,1) 0%, rgba(9,9,121,1) 32%, rgb(3, 182, 218) 97%);
+}
+.rodape{
+    background-color: rgb(33, 110, 224);
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color:whitesmoke;
+    text-align: center;
+    padding: 10px;
+    
+/*Começo da pag about */
+}
+.apresentacao__about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6% 15%;
+    gap: 82px;
+  }
+  .stilo__about{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .Destaque_titulo__about{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  font-size: 1.25rem;
+    padding: px;
+    color: #D9C848;
+
+  }
+.about__titulo{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 1.2rem;
+    color:whitesmoke;
+}
+.enfase__about{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 1.25rem;
+    color:#d2a21c;
+}
+/*Aba currículo*/
+.cursos__curriculo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.conteudo__curriculo{
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 1rem;
+    color: var(--cor--terciaria);
+}
+
+@media (max-width:1200px){
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho__menu{
+        gap: auto;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .stilo{
+        width: auto;
+    }
+    .minhafoto{
+        width: 50%;
+    }
+    .apresentacao__about{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .stilo__about{
+        width: auto;
+    }
+
+}
+
+
+
